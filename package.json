@@ -1,0 +1,19 @@
+{
+    "name": "cypress-automation",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "cy:open": ".\\node_modules\\.bin\\cypress open",
+        "cy:run": ".\\node_modules\\.bin\\cypress run",
+        "cy:run:chrome": ".\\node_modules\\.bin\\cypress run --browser chrome",
+        "cy:run:firefox": ".\\node_modules\\.bin\\cypress run --browser firefox",
+        "cy:run:edge": ".\\node_modules\\.bin\\cypress run --browser edge"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "cypress": "^13.10.0",
+        "typescript": "^5.4.5"
+    }
+}
