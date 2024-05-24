@@ -1,12 +1,16 @@
-# building the env
+# Building the env
 install npm and run at the root of the project:
 > npm install
 
-# opening test runner
+# Opening test runner
 > npm run cy:open
 
-# running tests headless
+# Running tests headless
+## Electron
 > npm run cy:run
+## Chrome
 > npm run cy:run:chrome
+## FireFox
 > npm run cy:run:firefox
+## Edge
 > npm run cy:run:edge
