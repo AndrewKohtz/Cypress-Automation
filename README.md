@@ -4,7 +4,9 @@ install npm and run at the root of the project:
 
 # Opening test runner
 > npm run cy:open
+
 -- or --
+
 > ./node_modules/.bin/cypress open
 
 # Running tests headless
